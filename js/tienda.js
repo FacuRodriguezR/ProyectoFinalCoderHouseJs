@@ -78,6 +78,41 @@ let productos = [{
     imagen: "/images/cafetera.jpg",
     cantidad: 1,
   },
+  {
+    id: 8,
+    nombre: "Notebook IP 14'",
+    precio: 40799,
+    puntos: 6700,
+    imagen: "/images/notebook.webp",
+    cantidad: 1
+  },
+
+  {
+    id: 9,
+    nombre: "Mixer Mini Pimer",
+    precio: 14599,
+    puntos: 6700,
+    imagen: "/images/minipimer.jpg",
+    cantidad: 1
+  },
+
+  {
+    id: 10,
+    nombre: "Freidora de Aire",
+    precio: 107829,
+    puntos: 6700,
+    imagen: "/images/freidoraAire.jpg",
+    cantidad: 1
+  },
+
+  {
+    id: 11,
+    nombre: "Plancha de vapor Oster",
+    precio: 39599,
+    puntos: 6700,
+    imagen: "/images/plancha.webp",
+    cantidad: 1
+  }
 ];
 let carrito = [];
 
@@ -102,8 +137,8 @@ fetch("/tienda.json")
         <div class="card-body">
           <h5 class="card-title">${producto.nombre}</h5>
           <p class="card-text">$${producto.precio}</p>
-          <p class="card-text">${producto.puntos + " puntos"}</p>
-          <button class="btn btn-primary" id="botonCanjear${
+          
+          <button onclick="botonCanjear" class="btn btn-primary" id="botonCanjear${
             producto.id
           }">Agregar al carrito</button>
         </div>`;
