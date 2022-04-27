@@ -1,0 +1,72 @@
+[{
+    "id": 0,
+    "nombre": "Cocina Escorial",
+    "precio": 50000,
+    "puntos": 9600,
+    "imagen": "/images/cocina.jpg",
+    "cantidad": 1
+  },
+
+  {
+    "id": 1,
+    "nombre": "Heladera Patrick",
+    "precio": 168999,
+    "puntos": 10400,
+    "imagen": "/images/heladera.jpg",
+    "cantidad": 1
+  },
+
+  {
+    "id": 2,
+    "nombre": "Aire/Ac BGH",
+    "precio": 189999,
+    "puntos": 20000,
+    "imagen": "/images/aire-acondicionado.jpg",
+    "cantidad": 1
+  },
+
+  {
+    "id": 3,
+    "nombre": "Lavarropas Electrolux",
+    "precio": 125499,
+    "puntos": 10300,
+    "imagen": "/images/lavarropas-1.png",
+    "cantidad": 1
+  },
+
+  {
+    "id": 4,
+    "nombre": "Microondas Whirlpool",
+    "precio": 32500,
+    "puntos": 5800,
+    "imagen": "/images/microondas.jpg",
+    "cantidad": 1
+  },
+
+  {
+    "id": 5,
+    "nombre": "SMART TV LG 50' ",
+    "precio": 119899,
+    "puntos": 10200,
+    "imagen": "/images/televisor.webp",
+    "cantidad": 1
+  },
+
+  {
+    "id": 6,
+    "nombre": "Lavavajillas Drean",
+    "precio": 100999,
+    "puntos": 10600,
+    "imagen": "/images/lavavajilla.jpg",
+    "cantidad": 1
+  },
+
+  {
+    "id": 7,
+    "nombre": "Cafetera 3 en 1 Winco",
+    "precio": 28799,
+    "puntos": 6700,
+    "imagen": "/images/cafetera.jpg",
+    "cantidad": 1
+  }
+]

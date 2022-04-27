@@ -1,0 +1,8 @@
+COSAS PARA HACER EN EL CODIGO
+
+1> AGREGAR FUNCION DE ELIMINAR DEL CARRITO
+2> agregar un fetch para consumir una api
+3> mejorar visualmente 
+4> hacer un menu con los diferentes contactos que están hardcodeado
+5> agregar un local storage
+6> incluir un login

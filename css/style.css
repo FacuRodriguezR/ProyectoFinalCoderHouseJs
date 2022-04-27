@@ -1,0 +1,220 @@
+/* ESTILOS POR ETIQUETAS */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 0 10px 0 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+  display: flex;
+  padding-right: 3px;
+  margin: 4px;
+}
+
+button {
+  padding: 40px;
+}
+
+/* ESTILOS CLASES */
+
+.tituloPrincipal {
+  margin: auto;
+
+  text-shadow: 0 0 5px rgb(93, 161, 240), 0 0 15px rgb(93, 161, 240),
+    0 0 30px rgb(93, 161, 240), 0 0 50px rgb(93, 161, 240);
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+}
+
+.bodyIndex {
+  background-color: rgb(54, 54, 54);
+}
+
+.title {
+  background-image: url(https://media.istockphoto.com/photos/dark-blue-background-picture-id962737798?b=1&k=20&m=962737798&s=612x612&w=0&h=WxL_GnVLYG89PjhPZDYlYwagy9UpQzEhN6k19XQOE-4=);
+  padding: 80px;
+}
+
+.boton {
+  font-family: "Chakra Petch", sans-serif;
+  text-shadow: 0 0 5px rgb(93, 161, 240), 0 0 15px rgb(93, 161, 240),
+    0 0 30px rgb(93, 161, 240), 0 0 50px rgb(93, 161, 240);
+  font-size: 30px;
+  margin: 20px;
+}
+
+.navbar {
+  top: 0;
+  z-index: 999;
+  position: sticky;
+  font-family: "Chakra Petch", sans-serif;
+  text-shadow: 0 0 5px rgb(93, 161, 240), 0 0 15px rgb(93, 161, 240),
+    0 0 30px rgb(93, 161, 240), 0 0 50px rgb(93, 161, 240);
+
+}
+
+.btn-primary {
+  font-family: "Chakra Petch", sans-serif;
+  text-shadow: 0 0 5px rgb(93, 161, 240), 0 0 15px rgb(93, 161, 240),
+    0 0 30px rgb(93, 161, 240), 0 0 50px rgb(93, 161, 240);
+  background-color: rgb(70, 70, 70);
+}
+
+.footer {
+  background-color: rgb(37, 37, 37);
+  padding: 40px;
+  font-family: "Chakra Petch", sans-serif;
+
+}
+
+.footer p {
+  font-size: 16px;
+  color: aliceblue;
+}
+
+.card{
+  background-color: rgb(190, 190, 190);
+  color: rgb(49, 49, 49);
+  
+}
+
+.card h5 {
+  font-family:  "Chakra Petch", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  color: black;
+}
+
+.card p {
+  font-family:  "Chakra Petch", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.card img {
+  padding: 10px;
+
+}
+
+.imagenCarrito{
+  width: 40px;
+}
+
+.productosCarrito{
+  margin: auto;
+  background-color: rgb(36, 36, 36);
+  text-align: center;
+  font-size: 13px ;
+  font-family:  "Chakra Petch", sans-serif;
+  color: white ;
+  text-shadow: 0 0 5px rgb(93, 161, 240), 0 0 15px rgb(93, 161, 240),
+  0 0 30px rgb(93, 161, 240), 0 0 50px rgb(93, 161, 240);
+  display: flex;
+  padding:20px;
+  border-radius: 20px;
+  margin: 10px 0 0 0;
+  align-items: center;
+}
+
+.productosCarrito img{
+  height: 25px;
+  width: 25px;
+}
+
+.productosCarrito p {
+  padding: 15px;
+}
+
+.carritoButton{
+ padding: 10px;
+ display: flex;
+justify-content: right;
+background-color: rgb(136, 136, 136);
+}
+
+
+.botonCarrito {
+  background-color: rgb(228, 224, 241);
+  box-shadow: 0 0 5px rgb(93, 161, 240), 0 0 15px rgb(93, 161, 240),
+  0 0 30px rgb(93, 161, 240) 
+  
+}
+
+.botonCarrito:hover {
+  background-color: gray;
+}
+.botonElim{
+  
+font-size: 14px;
+
+}
+
+.mainIndex{
+  background-color: aliceblue;
+  display: block;
+}
+
+.precioProducto{
+  margin: 10px;
+}
+.precioProducto p{
+  font-weight: bold;
+}
+
+#sectionButton{
+  padding: 68px;
+  margin: 20px;
+
+}
+
+#botonTransf{
+  display: block;
+  list-style: none;
+  background-color: grey;
+  
+  font-family:  "Chakra Petch", sans-serif;
+  color: white ;
+  text-shadow: 0 0 5px rgb(93, 161, 240), 0 0 15px rgb(93, 161, 240),
+  0 0 30px rgb(93, 161, 240), 0 0 50px rgb(93, 161, 240);
+}
+
+#botonTransf h4{
+  font-size: 16px;
+}
+#botonTransf li {
+  padding: 10px;
+}
+
+#botonEliminar{
+  text-shadow: 0 0 5px rgb(248, 0, 0), 0 0 15px rgb(255, 0, 0),
+  0 0 30px rgb(252, 0, 0), 0 0 50px rgb(255, 8, 8);
+}
+
+#contadorCarrito{
+  color: black;
+  font-weight: bold;
+}
+
+#precioTotal{
+  font-weight: bold;
+}
