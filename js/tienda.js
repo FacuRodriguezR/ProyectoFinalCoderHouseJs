@@ -127,7 +127,7 @@ vaciarCarrito.addEventListener("click", () => {
 
 // CREAMOS LA CARD USANDO EL FETCH 
 
-fetch("/tienda.json")
+fetch("../tienda.json")
   .then((response) => response.json())
   .then((producto) => {
     producto.forEach((producto) => {
@@ -199,7 +199,7 @@ const actualizarCarrito = () => {
     <p>${elemento.nombre}</p>
     <p>$${elemento.precio*elemento.cantidad}</p>
     <p>Cantidad: <span id="cantidad">${elemento.cantidad}</span></p>
-    <button onclick="eliminarCarrito(${elemento.id})" class="boton botonElim btn btn-primary">Eliminar del carrito</button>
+    <button onclick="eliminarCarrito(${elemento.id})" class="boton botonElim btn btn-primary">Eliminar</button>
     
     `;
     contenedorCarrito.appendChild(div);
@@ -232,7 +232,7 @@ botonComprar.addEventListener("click", () => {
   } else {
     Swal.fire({
       icon: "error",
-      title: "¡Que culiao!",
+      title: "Ooops!",
       text: "No has ingresado ningun producto al carrito",
     });
   }
